@@ -1,0 +1,22 @@
+h1{
+    border: 20px solid crimson;
+    height: 400px;
+    width: 500px;
+}
+
+h2{
+    background-color: lightblue;     
+    padding: 20px;                      
+    margin: 20px;                        
+    box-shadow: inset 5px 0px 5px 5px red; 
+    border-radius: 10px;                 
+}
+
+p{
+    background-image: url(image\ 2.png);
+    height: 400px;
+    width: 500px;
+    box-shadow: inset 10px 0px 10px 10px orange;
+    border-radius: 10px;
+}
+
