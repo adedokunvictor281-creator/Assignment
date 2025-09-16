@@ -1,6 +1,13 @@
-table{
+table {
+    padding: 10px;
+    border-collapse: collapse;
+    width: 500px;
+    text-align: left;
+}
+
+tr{
+  border: 3px solid whitesmoke;
   padding: 10px;
-  border-collapse: collapse;
 }
 
 thead {
@@ -9,7 +16,7 @@ thead {
 }
 
 td{
-  border: 3px solid whitesmoke;
+  border-bottom: 20px gray  ;
   padding: 10px;
 }
 

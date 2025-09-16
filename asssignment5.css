@@ -1,0 +1,19 @@
+ol{
+    background-color: rgb(216, 214, 214);
+    margin: 15px;
+}
+
+li{
+    background-color: yellow;
+    padding: 5px;
+}
+
+ul{
+    background-color: peachpuff;
+    margin: 10px;
+}
+
+.gg{
+    background-color: pink;
+    margin: 15px;
+}
