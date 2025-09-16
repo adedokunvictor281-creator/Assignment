@@ -1,0 +1,16 @@
+
+h1 {
+    color: red;
+}
+
+ul {
+    border: 10px solid yellow;
+    width: 400px;
+    list-style-type: disc;
+}
+
+li {
+    background-color: rgb(185, 210, 243);
+    margin: 5px 0;
+}
+
