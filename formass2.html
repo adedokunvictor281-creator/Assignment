@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us Form</title>
+<div class="top-links">
+    <a href="index.html">Letter</a>
+    <a href="border.html">Image</a>
+    <a href="Assignment2.html">Table 1</a>
+    <a href="assignment3.html">Table 2</a>
+    <a href="assignment4.html">EDUCBA</a>
+    <a href="Assignment5.html">List</a>
+    <a href="formass1.html">Form 1</a>
+    <a href="formass2.html">Form 2</a>
+    <a href="formass3.html">Form 3</a>
+    <a href="formass4.html">Form 4</a>
+</div>
+  <style>
+    .top-links {
+  position: absolute;
+  top: 10px;
+  left: 20px;       
+}
+
+.top-links a {
+  margin-right: 15px; 
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+.top-links a:hover {
+  text-decoration: underline;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(rgba(128,0,128,0.6), rgba(128,0,128,0.6)),
+              url(letgo.png) no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+    .form-container {
+      background: white;
+      width: 350px;
+      border-radius: 5px;
+      overflow: hidden;
+      box-shadow: 0px 4px 12px rgba(0,0,0,0.2);
+    }
+
+    .form-header {
+      background: url(image\ 2.png) no-repeat center;
+      background-size: cover;
+      height: 100px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    .form-body {
+      padding: 20px;
+    }
+
+    .form-body input,
+    .form-body textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border: 1px solid #ddd;
+      border-radius: 3px;
+      font-size: 14px;
+    }
+
+    .form-body textarea {
+      resize: none;
+    }
+
+    .form-body button {
+      width: 50%;
+      padding: 10px;
+      margin-top: 10px;
+      margin-left: 60px;
+      border: none;
+      border-radius: 25px;
+      background: purple;
+      color: white;
+      font-size: 15px;
+      cursor: pointer;
+    }
+
+    .form-body button:hover {
+      background: darkviolet;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="form-container">
+    <!-- Top image header -->
+    <div class="form-header">
+      CONTACT US
+    </div>
+
+    <!-- Form inputs -->
+    <div class="form-body">
+      <input type="text" placeholder="Full name">
+      <input type="email" placeholder="Eg. example@email.com">
+      <input type="tel" placeholder="Eg. +1 800 000000">
+      <input type="text" placeholder="Your comment">
+      <button type="submit">SEND NOW</button>
+    </div>
+  </div>
+
+</body>
+</html>

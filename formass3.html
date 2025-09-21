@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+<div class="top-links">
+    <a href="index.html">Letter</a>
+    <a href="border.html">Image</a>
+    <a href="Assignment2.html">Table 1</a>
+    <a href="assignment3.html">Table 2</a>
+    <a href="assignment4.html">EDUCBA</a>
+    <a href="Assignment5.html">List</a>
+    <a href="formass1.html">Form 1</a>
+    <a href="formass2.html">Form 2</a>
+    <a href="formass3.html">Form 3</a>
+    <a href="formass4.html">Form 4</a>
+</div>
+
+  <style>
+.top-links {
+  position: absolute;
+  top: 10px;
+  left: 20px;         /* put them at the top-left */
+}
+
+.top-links a {
+  margin-right: 15px; /* spacing between links */
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+.top-links a:hover {
+  text-decoration: underline;
+}
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(rgba(255,0,150,0.7), rgba(255,100,0,0.7)),
+                  url('https://via.placeholder.com/1200x800') no-repeat center center fixed;
+      background-size: cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .contact-box {
+      background: white;
+      padding: 30px;
+      width: 350px;
+      border-radius: 10px;
+      box-shadow: 0px 4px 12px rgba(0,0,0,0.2);
+    }
+
+    .contact-box h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      font-size: 22px;
+    }
+
+    .contact-box label {
+      font-size: 12px;
+      color: #555;
+      display: block;
+      margin-top: 15px;
+    }
+
+    .contact-box input {
+      width: 100%;
+      padding: 8px;
+      margin-top: 5px;
+      border: none;
+      border-bottom: 1px solid #ccc;
+      outline: none;
+      font-size: 14px;
+    }
+
+    .contact-box input:focus {
+      border-bottom: 2px solid purple;
+    }
+
+    .contact-box button {
+      width: 50%;
+      padding: 12px;
+      margin-top: 20px;
+      margin-left: 80px;
+      border: none;
+      border-radius: 5px;
+      background: linear-gradient(to right, #a100ff, #ff3300);
+      color: white;
+      font-size: 15px;
+      cursor: pointer;
+    }
+
+  </style>
+</head>
+<body>
+
+  <div class="contact-box">
+    <h2>Contact Us</h2>
+
+    <label>NAME</label>
+    <input type="text">
+
+    <label>EMAIL</label>
+    <input type="email" placeholder=>
+
+    <label>MESSAGE</label>
+    <input type="text" placeholder=>
+
+    <button type="submit">Send Your Message</button>
+  </div>
+
+</body>
+</html>
