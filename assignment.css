@@ -28,3 +28,14 @@ h6{
   font-size: 20px;
   
 }
+.top-links a {
+  color:red;
+  text-decoration: none;
+  margin: 0 10px;  
+}
+
+.top-links a:hover {
+  color: yellow;
+}
+
+

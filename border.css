@@ -19,4 +19,14 @@ p{
     box-shadow: inset 10px 0px 10px 10px orange;
     border-radius: 10px;
 }
+.top-links a {
+  color:red;
+  text-decoration: none;
+  margin: 0 10px;  
+}
+
+.top-links a:hover {
+  color: yellow;
+}
+
 

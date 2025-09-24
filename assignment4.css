@@ -13,4 +13,13 @@ li {
     background-color: rgb(185, 210, 243);
     margin: 5px 0;
 }
+.top-links a {
+  color:red;
+  text-decoration: none;
+  margin: 0 10px;  
+}
+
+.top-links a:hover {
+  color: yellow;
+}
 
