@@ -29,15 +29,24 @@ tr:hover{
   color: #009879
 }
 
-.top-links a {
-  color:red;
-  text-decoration: none;
-  margin: 0 10px;  
-}
+ .top-links {
+      background-color: yellow;
+      padding: 15px;
+      text-align: center;
+      border-radius: 10px;
+    }
 
-.top-links a:hover {
-  color: yellow;
-}
+    .top-links a {
+      color: red;
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 16px;
+      font-weight: 500;
+      display: inline-block;
+    }
 
-
+    .top-links a:hover {
+      color: blue;   
+      text-decoration: underline;
+    }
 
